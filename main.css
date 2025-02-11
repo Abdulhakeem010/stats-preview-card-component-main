@@ -23,5 +23,6 @@ body {
 
  .card{
   background-color:  hsl(244, 38%, 16%);
+  padding: 90px;
  }
 
