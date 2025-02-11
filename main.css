@@ -23,6 +23,12 @@ body {
 
  .card{
   background-color:  hsl(244, 38%, 16%);
-  padding: 90px;
+  padding: 70px;
+ }
+
+ h1{
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-style: normal;
  }
 
