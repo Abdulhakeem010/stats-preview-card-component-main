@@ -26,7 +26,8 @@ body {
 
  .card{
   background-color:  hsl(244, 38%, 16%);
-  padding: 60px;
+  padding: 65px;
+  padding-right: 120px;
  }
 
  h1{
@@ -36,4 +37,9 @@ body {
   font-size: 2.5rem;
   margin-bottom: 30px;
  }
+ .text-deco{
+  color: hsl(277, 64%, 61%);
+ }
+
+ 
 
