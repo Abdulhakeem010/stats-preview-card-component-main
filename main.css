@@ -9,5 +9,13 @@
 }
 
 body{
+  color: #fff;
   background-color:  hsl(233, 47%, 7%);
+}
+
+.container{
+  display: flex;
+ width: 30%;
+ margin: auto;
+ border: 1px solid red;
 }
