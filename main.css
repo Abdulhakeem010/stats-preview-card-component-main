@@ -41,5 +41,13 @@ body {
   color: hsl(277, 64%, 61%);
  }
 
- 
+ main{
+  color:hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 50px;
+ }
 
