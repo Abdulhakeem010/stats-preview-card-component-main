@@ -8,3 +8,6 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color:  hsl(233, 47%, 7%);
+}
