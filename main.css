@@ -21,6 +21,7 @@ body {
   margin-top: 180px;
 }
 
-.img::after{
-  background-color: rgb(170, 92, 219, 0.5);
-}
+ .card{
+  background-color:  hsl(244, 38%, 16%);
+ }
+
