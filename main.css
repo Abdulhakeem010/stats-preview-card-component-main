@@ -15,7 +15,7 @@ body {
 
 .container {
   display: flex;
-  width: 80%;
+  width: 79%;
   margin-inline: auto;
   border: 1px solid red;
   margin-top: 180px;
@@ -24,7 +24,7 @@ body {
  .card{
   background-color:  hsl(244, 38%, 16%);
   padding: 65px;
-  padding-right: 120px;
+  padding-right: 90px;
  }
 
  h1{
