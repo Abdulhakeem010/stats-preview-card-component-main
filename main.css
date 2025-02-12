@@ -50,8 +50,15 @@ body {
  }
 
 footer{
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
+}
+
+.digits{
+  margin-bottom: 7px;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.3rem;
 }
 
