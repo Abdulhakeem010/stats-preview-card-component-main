@@ -17,7 +17,6 @@ body {
   display: flex;
   width: 80%;
   margin-inline: auto;
-  border: 1px solid red;
   margin-top: 180px;
   border-radius: 10px;
 }
