@@ -39,7 +39,7 @@ img{
   font-size: 2.5rem;
   margin-bottom: 25px;
  }
- 
+
  .text-deco{
   color: hsl(277, 64%, 61%);
  }
@@ -63,7 +63,7 @@ footer{
 }
 
 .digits{
-  margin-bottom: 7px;
+  margin-bottom: 10px;
   font-family: "Inter", serif;
   font-weight: 700;
   font-style: normal;
