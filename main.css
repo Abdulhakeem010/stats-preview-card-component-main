@@ -62,3 +62,11 @@ footer{
   font-size: 1.3rem;
 }
 
+.digits-text{
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
