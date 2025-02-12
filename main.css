@@ -58,6 +58,7 @@ img{
 footer{
   display: flex;
   justify-content: space-between;
+  margin-right: 45px;
 }
 
 .digits{
