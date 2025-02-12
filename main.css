@@ -21,31 +21,32 @@ body {
   border-radius: 10px;
 }
 
-img{
+img {
+
   border-radius: 0px 10px 10px 0px;
 }
 
- .card{
-  background-color:  hsl(244, 38%, 16%);
+.card {
+  background-color: hsl(244, 38%, 16%);
   padding: 70px;
   padding-right: 90px;
- border-radius: 10px 0px 0px 10px;
- }
+  border-radius: 10px 0px 0px 10px;
+}
 
- h1{
+h1 {
   font-family: "Inter", serif;
   font-weight: 700;
   font-style: normal;
   font-size: 2.5rem;
   margin-bottom: 25px;
- }
+}
 
- .text-deco{
+.text-deco {
   color: hsl(277, 64%, 61%);
- }
+}
 
- main{
-  color:hsla(0, 0%, 100%, 0.75);
+main {
+  color: hsla(0, 0%, 100%, 0.75);
   font-family: "Inter", serif;
   font-weight: 400;
   font-style: normal;
@@ -53,16 +54,16 @@ img{
   line-height: 25px;
   margin-bottom: 75px;
   padding-right: 50px;
- }
+}
 
-footer{
+footer {
   display: flex;
   justify-content: space-between;
   margin-right: 45px;
   margin-bottom: 10px;
 }
 
-.digits{
+.digits {
   margin-bottom: 10px;
   font-family: "Inter", serif;
   font-weight: 700;
@@ -70,7 +71,7 @@ footer{
   font-size: 1.3rem;
 }
 
-.digits-text{
+.digits-text {
   color: hsla(0, 0%, 100%, 0.6);
   font-family: "Lexend Deca", serif;
   font-weight: 400;
@@ -78,4 +79,3 @@ footer{
   font-size: 14px;
   letter-spacing: 0.5px;
 }
-
