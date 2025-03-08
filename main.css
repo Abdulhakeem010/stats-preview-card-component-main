@@ -131,9 +131,12 @@ footer {
     max-width: 900px; 
   }
   .card {
-    padding: 50px 65px 30px 65px;
-   
+    padding: 50px 70px 30px 70px;
   }
+  h1 {
+    font-size: 2rem;
+  }
+  
 }
 
 
