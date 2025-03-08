@@ -23,12 +23,11 @@ body {
 }
 
 .container {
-  border: 5px solid greenyellow;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
- height: fit-content;
+  height: fit-content;
   margin-inline: auto;
   border-radius: 10px;
 }
@@ -39,13 +38,13 @@ img {
 }
 
 .card {
-  border: 2px solid skyblue;
   width: min(100%, 540px);
-  max-height: 446px;
+  height: 446px;
   background-color: hsl(244, 38%, 16%);
   padding-inline: 70px;
   padding-right: 90px;
-  padding-block: 30px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   border-radius: 10px 0px 0px 10px;
 }
 
@@ -53,7 +52,7 @@ h1 {
   font-family: "Inter", serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-bottom: 25px;
 }
 
@@ -69,14 +68,11 @@ main {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 75px;
- 
 }
-
 
 footer {
   display: flex;
-  justify-content: space-evenly;
-  margin-right: 45px;
+  justify-content: space-between;
   margin-bottom: 10px;
 }
 
@@ -97,6 +93,5 @@ footer {
   letter-spacing: 0.5px;
 }
 
-@media screen  and (max-width: 1024px){
-  
+@media screen and (max-width: 1024px) {
 }
