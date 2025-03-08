@@ -113,15 +113,16 @@ body {
   justify-content: center;
   align-items: stretch; /* Ensure equal height for both sections */
   width: fit-content; /* Fit the content inside */
-  max-width: 900px; /* Optional: Set a max-width */
+  max-width: 1100px; 
   border-radius: 10px;
   overflow: hidden; /* Ensures rounded corners on both sides */
+  margin-inline: auto;
 }
 
 .card {
   flex: 1; /* Takes 50% of the container */
   background-color: hsl(244, 38%, 16%);
-  padding: 50px 70px 30px 70px;
+  padding: 50px 75px 30px 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,6 +163,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  margin-right: 60px;
 }
 
 .digits {
