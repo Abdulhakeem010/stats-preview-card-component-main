@@ -13,7 +13,7 @@ img {
   height: auto;
 }
 
-body {
+/* body {
   color: #fff;
   background-color: hsl(233, 47%, 7%);
   display: flex;
@@ -95,4 +95,101 @@ footer {
 
 @media screen and (max-width: 1024px) {
  
+} */
+
+
+body {
+  color: #fff;
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* Ensure equal height for both sections */
+  width: fit-content; /* Fit the content inside */
+  max-width: 900px; /* Optional: Set a max-width */
+  border-radius: 10px;
+  overflow: hidden; /* Ensures rounded corners on both sides */
+}
+
+.card {
+  flex: 1; /* Takes 50% of the container */
+  background-color: hsl(244, 38%, 16%);
+  padding: 50px 70px 30px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px 0 0 10px;
+}
+
+img {
+  flex: 1; /* Takes 50% of the container */
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image covers its section */
+  filter: grayscale(100%) sepia(100%) hue-rotate(265deg) saturate(300%);
+  border-radius: 0 10px 10px 0;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.text-deco {
+  color: #aa5cdb;
+}
+
+main {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 75px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.digits {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.digits-text {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .card {
+    border-radius: 10px 10px 0 0;
+    padding: 40px;
+  }
+
+  img {
+    border-radius: 0 0 10px 10px;
+  }
 }
