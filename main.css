@@ -118,6 +118,7 @@ footer {
     max-width: 900px;
   }
   .card {
+    border: 1px solid skyblue;
     max-width: 450px;
   }
   .padding-content {
@@ -153,8 +154,6 @@ footer {
   .card {
     border-radius: 0px 0px 10px 10px;
     order: 1;
-    padding-block: 0px;
-    padding-inline: 15px;
   }
   .footer-item {
     margin-right: 30px;
@@ -172,12 +171,13 @@ footer {
     align-items: center;
     max-width: 80%;
   }
+  .card {
+    max-width: 100%;
+  }
 }
 
-@media screen and (max-width: 425px){
-  
+@media screen and (max-width: 425px) {
 }
 
 @media screen and (max-width: 375px) {
-  
 }
