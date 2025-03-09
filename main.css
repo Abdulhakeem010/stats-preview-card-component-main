@@ -73,7 +73,6 @@ img {
 }
 
 h1 {
-  border: 1px solid red;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 2.2rem;
@@ -85,7 +84,6 @@ h1 {
 }
 
 main {
-  border: 1px solid red;
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -95,7 +93,6 @@ main {
 }
 
 footer {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   margin-right: 100px;
@@ -126,7 +123,6 @@ footer {
     max-width: 450px;
   }
   .padding-content {
-    /* margin-top: 50px; */
     margin-inline: 50px;
   }
   h1 {
@@ -136,15 +132,24 @@ footer {
     margin-bottom: 50px;
   }
   footer {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 30px;
     margin-left: 50px;
   }
+  .digits {
+    font-size: 1.2rem;
+  }
+  
+  .digits-text {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+  }
+
   img{
     max-width: 450px;
   }
 }
+
+
 
 @media screen and (max-width: 768px) {
   .container {
