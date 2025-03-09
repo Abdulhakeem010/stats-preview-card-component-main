@@ -36,7 +36,6 @@ body {
 
 .card {
   background-color: hsl(244, 38%, 16%);
-  /* padding: 50px 75px 30px 75px; */
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -149,27 +148,31 @@ footer {
 
 @media screen and (max-width: 768px) {
   .container {
-    border: none;
-    border-radius: 0px;
     flex-direction: column;
     max-width: 90%;
   }
   .card {
     border-radius: 0px 0px 10px 10px;
     order: 1;
-    padding: 15px;
+    padding: 20px;
   }
   .footer-item {
-  margin-right: 30px;
+    margin-right: 30px;
   }
-  img{
-   border-radius: 10px 10px 0px 0px;
+  img {
+    border-radius: 10px 10px 0px 0px;
   }
-  .image-overlay{
+  .image-overlay {
     border-radius: 10px 10px 0px 0px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  
+  .container {
+    align-items: center;
+    max-width: 80%;
+  }
+  .card {
+    
+  }
 }
