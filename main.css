@@ -23,7 +23,6 @@ body {
 }
 
 .container {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: stretch;
@@ -154,7 +153,8 @@ footer {
   .card {
     border-radius: 0px 0px 10px 10px;
     order: 1;
-    padding: 20px;
+    padding-block: 0px;
+    padding-inline: 15px;
   }
   .footer-item {
     margin-right: 30px;
@@ -172,7 +172,12 @@ footer {
     align-items: center;
     max-width: 80%;
   }
-  .card {
-    
-  }
+}
+
+@media screen and (max-width: 425px){
+  
+}
+
+@media screen and (max-width: 375px) {
+  
 }
