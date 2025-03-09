@@ -149,20 +149,23 @@ footer {
 
 @media screen and (max-width: 768px) {
   .container {
+    border: none;
+    border-radius: 0px;
     flex-direction: column;
     max-width: 90%;
   }
-
   .card {
-    order: 1;
     border-radius: 0px 0px 10px 10px;
+    order: 1;
     padding: 15px;
   }
   .footer-item {
-  border: 1px solid red;
+  margin-right: 30px;
   }
-
-  img {
+  img{
+   border-radius: 10px 10px 0px 0px;
+  }
+  .image-overlay{
     border-radius: 10px 10px 0px 0px;
   }
 }
