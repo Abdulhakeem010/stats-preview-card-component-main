@@ -138,18 +138,14 @@ footer {
   .digits {
     font-size: 1.2rem;
   }
-  
   .digits-text {
     font-size: 13px;
     letter-spacing: 0.5px;
   }
-
-  img{
+  img {
     max-width: 450px;
   }
 }
-
-
 
 @media screen and (max-width: 768px) {
   .container {
@@ -158,11 +154,12 @@ footer {
   }
 
   .card {
-    border-radius: 10px 10px 0 0;
-    padding: 40px;
+    order: 1;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
   }
 
   img {
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 10px 0px 0px;
   }
 }
