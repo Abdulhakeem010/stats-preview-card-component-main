@@ -114,7 +114,6 @@ footer {
 
 @media screen and (max-width: 1024px) {
   .container {
-    width: fit-content;
     max-width: 900px;
   }
   .card {
