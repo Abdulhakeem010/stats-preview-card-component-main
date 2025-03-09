@@ -109,6 +109,30 @@ footer {
   letter-spacing: 0.5px;
 }
 
+@media screen and (max-width: 1024px) {
+  .container{
+    width: fit-content;
+    max-width: 900px; 
+  }
+  .card {
+    padding: 50px 70px 30px 70px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  main{
+    border: 1px solid green;
+    margin-bottom: 60px;
+  }
+  footer {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-right: 60px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -124,21 +148,6 @@ footer {
     border-radius: 0 0 10px 10px;
   }
 }
-
-@media screen and (max-width: 1024px) {
-  .container{
-    width: fit-content;
-    max-width: 900px; 
-  }
-  .card {
-    padding: 50px 70px 30px 70px;
-  }
-  h1 {
-    font-size: 2rem;
-  }
-  
-}
-
 
 
 
