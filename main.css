@@ -182,16 +182,25 @@ footer {
   }
 }
 
+
 @media screen and (max-width: 425px) {
   footer{
-    
     border: 1px solid red;
+    margin-inline: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .footer-item{
-    
+    padding-block:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+  img{
+    height: auto;
   }
 }
 
