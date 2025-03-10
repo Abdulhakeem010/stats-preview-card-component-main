@@ -180,7 +180,12 @@ footer {
 
 @media screen and (max-width: 425px) {
   .container {
-    max-height: fit-content;
+    height: fit-content;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   h1 {
     font-size: 2rem;
@@ -197,9 +202,9 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .footer-item {
     display: flex;
@@ -207,13 +212,12 @@ footer {
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
-    border: 1px solid blue;
   }
   .digits {
     margin-bottom: 5px;
     font-size: 1.5rem;
   }
-  
+
   img {
     max-height: 300px;
   }
