@@ -117,12 +117,9 @@ footer {
     max-width: 900px;
   }
   .card {
-    border: 1px solid skyblue;
     max-width: 450px;
   }
-  .padding-content {
-    margin-inline: 50px;
-  }
+  
   h1 {
     font-size: 2rem;
   }
@@ -131,7 +128,7 @@ footer {
   }
   footer {
     margin-bottom: 30px;
-    margin-left: 50px;
+    margin-left: 70px;
   }
   .digits {
     font-size: 1.2rem;
@@ -151,13 +148,23 @@ footer {
     max-width: 90%;
   }
   .card {
+    height: 352.328px;
     border-radius: 0px 0px 10px 10px;
     order: 1;
+  }
+  .padding-content {
+    margin-top: 30px;
+    margin-inline: 50px;
+  }
+  footer{
+    margin-bottom: 50px;
+    margin-left: 50px;
   }
   .footer-item {
     margin-right: 30px;
   }
   img {
+    height: 352.328px;
     border-radius: 10px 10px 0px 0px;
   }
   .image-overlay {
