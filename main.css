@@ -183,7 +183,16 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
-  
+  footer{
+    
+    border: 1px solid red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-item{
+    
+  }
 }
 
 @media screen and (max-width: 375px) {
