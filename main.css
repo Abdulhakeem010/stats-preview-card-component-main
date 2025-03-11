@@ -237,11 +237,11 @@ footer {
 
 h1 {
   font-size: 2rem;
-  margin-bottom: 20px; /* reduce bottom space if needed */
+  margin-bottom: 25px; /* reduce bottom space if needed */
 }
 
 main {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 footer {
