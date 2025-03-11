@@ -179,9 +179,7 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
-  .container {
-    height: fit-content;
-  }
+ 
   .card{
     display: flex;
     justify-content: center;
