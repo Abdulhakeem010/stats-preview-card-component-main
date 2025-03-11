@@ -180,7 +180,7 @@ footer {
 
 @media screen and (max-width: 425px) {
  
-  .card{
+  /* .card{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,8 +203,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-inline: auto;
   }
   .footer-item {
     display: flex;
@@ -221,6 +220,62 @@ footer {
   img {
     max-height: 300px;
   }
+} */
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding-content {
+  margin-top: 30px;
+  margin-inline: 30px; /* less margin for small screens */
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px; /* reduce bottom space if needed */
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+footer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.digits {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* adjust to your preference */
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.image-overlay {
+  border-radius: 10px 10px 0 0;
+}
 }
 
 @media screen and (max-width: 375px) {
