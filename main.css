@@ -50,7 +50,7 @@ body {
 .image img {
   flex: 1;
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   border-radius: 0 10px 10px 0;
 }
@@ -90,7 +90,7 @@ main {
 footer {
   display: flex;
   justify-content: space-between;
-  margin-right: 100px;
+  margin-right: 140px;
   margin-left: 75px;
   margin-bottom: 30px;
 }
@@ -120,12 +120,14 @@ footer {
     font-size: 2rem;
   }
   main {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   footer {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-left: 70px;
+    margin-right: 100px;
   }
+
   .digits {
     font-size: 1.2rem;
   }
@@ -135,6 +137,9 @@ footer {
   }
   img {
     max-width: 450px;
+  }
+  .pic img{
+    height: max-content;
   }
 }
 
@@ -179,59 +184,58 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
- 
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.padding-content {
-  margin-top: 30px;
-  margin-inline: 30px; 
-  text-align: center;
-}
+  .padding-content {
+    margin-top: 30px;
+    margin-inline: 25px;
+    text-align: center;
+  }
 
-h1 {
-  font-size: 2rem;
-  margin-bottom: 25px; 
-}
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
 
-main {
-  margin-bottom: 25px;
-}
+  main {
+    margin-bottom: 25px;
+  }
 
-footer {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 
-.footer-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 15px;
-}
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
 
-.digits {
-  margin-bottom: 5px;
-  font-size: 1.5rem;
-}
+  .digits {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+  }
 
-.image img {
-  width: 100%;
-  height: auto;
-  max-height: 200px;
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
-}
+  .image img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
 
-.image-overlay {
-  border-radius: 10px 10px 0 0;
-}
+  .image-overlay {
+    border-radius: 10px 10px 0 0;
+  }
 }
