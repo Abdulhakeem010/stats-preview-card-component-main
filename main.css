@@ -112,6 +112,7 @@ footer {
 @media screen and (max-width: 1024px) {
   .container {
     max-width: 900px;
+    height: auto;
   }
   .card {
     max-width: 450px;
@@ -149,7 +150,7 @@ footer {
     max-width: 90%;
   }
   .card {
-    height: 352.328px;
+    height: 450px;
     border-radius: 0px 0px 10px 10px;
     order: 1;
   }
@@ -165,7 +166,7 @@ footer {
     margin-right: 30px;
   }
   img {
-    height: 352.328px;
+    height: 450px;
     border-radius: 10px 10px 0px 0px;
   }
   .image-overlay {
